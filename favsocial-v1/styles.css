@@ -1,0 +1,21 @@
+body {
+    font-family: Arial;
+}
+
+.links {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.page {
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.time {
+    color: #666666;
+}
