@@ -40,7 +40,10 @@
             <form class="form-inline" action="confirmation.html">
                 <label class="sr-only" for="inlineFormInput">Email address</label>
                 <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" style="width: 300px" id="inlineFormInput" placeholder="Enter your email address">
-                <button type="submit" class="btn btn-primary">Subscribe</button>
+                <button type="submit" class="btn btn-primary" 
+                    (click)="gtag('event', 'subscribe');">
+                  Subscribe
+                </button>
             </form>
         </p>
     </div>
