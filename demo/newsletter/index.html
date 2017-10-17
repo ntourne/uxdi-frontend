@@ -37,13 +37,10 @@
         </div>
         <p class="lead mt-3">Do you want to receive UX articles on your email?</p>
         <p>
-            <form class="form-inline" action="confirmation.html">
+            <form class="form-inline" action="confirmation.html" (submit)="gtag('event', 'subscribe')">
                 <label class="sr-only" for="inlineFormInput">Email address</label>
                 <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" style="width: 300px" id="inlineFormInput" placeholder="Enter your email address">
-                <button type="submit" class="btn btn-primary" 
-                    (onclick)="gtag('event', 'subscribe');">
-                  Subscribe
-                </button>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
             </form>
         </p>
     </div>
