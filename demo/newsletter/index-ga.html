@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108249706-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108249706-1');
+    </script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -17,6 +28,7 @@
     <!-- Custom styles for this template -->
     <link href="assets/css/newsletter.css" rel="stylesheet">
 </head>
+
 <body>
 
     <!-- Begin page content -->
@@ -26,7 +38,7 @@
         </div>
         <p class="lead mt-3">Do you want to receive UX articles on your email?</p>
         <p>
-            <form class="form-inline" action="confirmation.html">
+            <form class="form-inline" action="confirmation.html" onsubmit="gtag('event', 'subscribe')">
                 <label class="sr-only" for="inlineFormInput">Email address</label>
                 <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" style="width: 300px" id="inlineFormInput" placeholder="Enter your email address">
                 <button type="submit" class="btn btn-primary">Subscribe</button>
@@ -118,7 +130,7 @@
 
         <p class="lead mt-3">Still here? Subscribe to our newsletter for FREE</p>
         <p>
-            <form class="form-inline" action="confirmation.html">
+            <form class="form-inline" action="confirmation.html" onsubmit="gtag('event', 'subscribe')">
                 <label class="sr-only" for="inlineFormInput">Email address</label>
                 <input type="text" class="form-control mb-2 mr-sm-2 mb-sm-0" style="width: 300px" id="inlineFormInput" placeholder="Enter your email address">
                 <button type="submit" class="btn btn-primary">Subscribe</button>
