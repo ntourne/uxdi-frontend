@@ -28,3 +28,15 @@ html {
     max-width: 680px;
     padding: 0 15px;
   }
+
+  .article {
+    margin-top: 2em;
+  }
+
+  .article .title {
+    font-size: 1em;
+  }
+
+  .article .summary {
+    font-size: 0.9em;
+  }
