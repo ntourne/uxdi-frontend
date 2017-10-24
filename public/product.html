@@ -6,12 +6,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108360961-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-108360961-1');
     </script>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -85,8 +84,8 @@
         </div>
     </div>
 
-
-
+    
+    
 
     <div class="coupon coupon-product text-muted">
         <div class="container">
@@ -125,15 +124,12 @@
                         Flight in helicopter for two people. 30 min travel around Chicago.
                     </div>
                     <a href="thank-you.html" class="btn btn-primary btn-lg btn-block mt-4">Buy Now</a>
-                    <a type="thank-you.html" class="btn btn-secondary btn-lg btn-block mt-2">Give as a Gift</a>
+                    <a href="#" class="btn btn-secondary btn-lg btn-block mt-2" id="give-as-gift">Give as a Gift</a>
 
                     <hr>
                     <div class="share mt-3">
-                        Share:
-                        <br/>
-                        <a href="#">Facebook</a> -
-                        <a href="#">Twitter</a> -
-                        <a href="#">Email</a>
+                        Share:<br/>
+                        <a href="#" id="share-facebook">Facebook</a> - <a href="#" id="share-twitter">Twitter</a> - <a href="#" id="share-email">Email</a>
                     </div>
                 </div>
             </div>
@@ -142,17 +138,15 @@
                 <div class="col-8">
                     <h5>Description</h5>
                     <p>
-                        Promotional value expires 150 days after purchase. Amount paid never expires. May be repurchased every 90 days. Must be 18
-                        or older. Must sign waiver. Merchant's standard cancellation policy applies (any fees not to exceed
-                        voucher price). Limit 2 per person, may buy 2 additional as gifts. Valid only for option purchased.
-                        Reservation required. Limit 250 pounds per person.
-                        <a href="#" id="description-view-more-link" onclick="document.getElementById('description-view-more').style.display = 'block'; document.getElementById('description-view-more-link').style.display = 'none'; return false">View more</a>
+                        Promotional value expires 150 days after purchase. Amount paid never expires. May be repurchased every 90 days. 
+                        Must be 18 or older. Must sign waiver. Merchant's standard cancellation policy applies (any fees not to exceed voucher price). 
+                        Limit 2 per person, may buy 2 additional as gifts. Valid only for option purchased. Reservation required. Limit 250 pounds per person. 
+                        <a href="#" id="description-view-more-link">View more</a>
                     </p>
                     <p style="display: none" id="description-view-more">
-                        Any accompanying children must be at least 5 years old and cannot sit on a passenger's lap. Not valid in combination with
-                        promo codes. Offer is not eligible for voucher promo codes or other discounts. Merchant is solely
-                        responsible to purchasers for the care and quality of the advertised goods and services. Offer is
-                        not eligible for our promo codes or other discounts.>
+                        Any accompanying children must be at least 5 years old and cannot sit on a passenger's lap. Not valid in combination with promo codes. 
+                        Offer is not eligible for voucher promo codes or other discounts. Merchant is solely responsible to purchasers for the care and quality 
+                        of the advertised goods and services. Offer is not eligible for our promo codes or other discounts.>
                     </p>
                 </div>
             </div>
@@ -171,7 +165,7 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row">                
 
                 <!-- Product -->
                 <div class="card">
@@ -284,14 +278,15 @@
         crossorigin="anonymous"></script>
     <script src="assets/js/holder.min.js"></script>
     <script>
-            $(function () {
-                Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
-            });
+        $(function () {
+            Holder.addTheme("thumb", { background: "#55595c", foreground: "#eceeef", text: "Thumbnail" });
+        });
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
         crossorigin="anonymous"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/coupon.js"></script>
 </body>
 
 </html>
