@@ -34,3 +34,28 @@ a {
 a:hover {
     color: #9b59b6;
 }
+
+@media (max-width: 1200px) {
+    
+    .article {
+        width: 1000px;
+    }
+
+    h1 {
+        font-size: 40px;
+        color: red;
+    }
+}
+
+
+@media (max-width: 1000px) {
+
+    .article {
+        width: 750px;
+    }
+
+    p.summary {
+        font-size: 16px;
+        color: blue;
+    }
+}

@@ -7,10 +7,8 @@ $(document).ready(function() {
         $('#description-view-more-link').hide();
         $('#description-view-more').show();
 
-        gtag('event', 'viewMore');
-
         gtag('event', 'viewMore', {
-            'event_category': 'Product',
+            'event_category': 'List Products',
             'event_action': 'viewMore'
         });
 
